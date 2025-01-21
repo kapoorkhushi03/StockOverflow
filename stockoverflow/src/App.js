@@ -1,6 +1,7 @@
 
 import './App.css';
 import Home from './pages/Home';
+import Login from '.pages/Login';
 import{
   BrowserRouter as Router,
   Routes,
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}/>
         </Routes>
+
       </div>
     </Router>
     
