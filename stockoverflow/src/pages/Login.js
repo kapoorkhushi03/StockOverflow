@@ -4,6 +4,12 @@ import { FaFacebookF, FaTwitter } from 'react-icons/fa';
 
 function App() {
   return (
+<<<<<<< HEAD
+    <div>
+      login
+    </div>
+  )
+=======
     <Container fluid className="p-3 my-5">
       <Row>
         <Col md={6}>
@@ -61,6 +67,7 @@ function App() {
       </Row>
     </Container>
   );
+>>>>>>> 9e5f3efb1334a4b3a2cab63f15daee9b26f49ac0
 }
 
 export default App;
