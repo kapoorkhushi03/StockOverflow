@@ -1,0 +1,10 @@
+.carousel-wrapper {
+    width: 80%; /* Adjust the width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+    padding: 20px 0; /* Optional: Add top and bottom padding */
+  }
+  
+  .carousel-item img {
+    object-fit: cover; /* Ensure the image fills the carousel item area properly */
+  }
+  
