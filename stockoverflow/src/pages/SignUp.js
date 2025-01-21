@@ -12,22 +12,22 @@ function App() {
               <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
 
               <div className="d-flex flex-row align-items-center mb-4">
-                <FaUser className="me-3" size="lg" />
+                <FaUser className="me-3" height="15px" />
                 <Form.Control type="text" placeholder="Your Name" className="w-100" />
               </div>
 
               <div className="d-flex flex-row align-items-center mb-4">
-                <FaEnvelope className="me-3" size="lg" />
+                <FaEnvelope className="me-3"height="15px" />
                 <Form.Control type="email" placeholder="Your Email" />
               </div>
 
               <div className="d-flex flex-row align-items-center mb-4">
-                <FaLock className="me-3" size="lg" />
+                <FaLock className="me-3" height="15px" />
                 <Form.Control type="password" placeholder="Password" />
               </div>
 
               <div className="d-flex flex-row align-items-center mb-4">
-                <FaKey className="me-3" size="lg" />
+                <FaKey className="me-3" height="15px" />
                 <Form.Control type="password" placeholder="Repeat your password" />
               </div>
 
@@ -35,7 +35,7 @@ function App() {
                 <Form.Check type="checkbox" label="Subscribe to our newsletter" />
               </div>
 
-              <Button className="mb-4" size="lg" variant="primary">
+              <Button className="mb-4" height="15px" variant="primary">
                 Register
               </Button>
             </Col>
