@@ -1,12 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-<<<<<<< HEAD
 import img from '../assets/stock.png'
 
-=======
 import './CustomCarousel.css'; // Assuming you'll create a separate CSS file for styles
->>>>>>> 9e5f3efb1334a4b3a2cab63f15daee9b26f49ac0
 
 export default function CustomCarousel() {
   return (

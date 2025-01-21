@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button, Form, Checkbox, Image } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, Form, Image } from 'react-bootstrap';
 import { FaUser, FaEnvelope, FaLock, FaKey } from 'react-icons/fa';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
               </div>
 
               <div className="mb-4">
-                <Checkbox label="Subscribe to our newsletter" />
+                <Form.Check type="checkbox" label="Subscribe to our newsletter" />
               </div>
 
               <Button className="mb-4" size="lg" variant="primary">
